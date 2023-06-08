@@ -7,6 +7,10 @@
 @import "detail.css";
 @import "comment.css";
 
+* {
+  word-wrap: break-word;
+}
+
 body {
   min-height: 100vh;
   background-color: var(--main-bg-color);
