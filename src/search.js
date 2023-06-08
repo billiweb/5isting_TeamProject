@@ -1,7 +1,7 @@
-export const handleSearch = searchKeyword => {
+export const handleSearch = (searchKeyword) => {
   const movieCards = document.querySelectorAll(".movie-card");
 
-  movieCards.forEach(card => {
+  movieCards.forEach((card) => {
     const title = card.querySelector("#movie-title").textContent.toLowerCase();
     const searchedValue = searchKeyword.toLowerCase();
 
