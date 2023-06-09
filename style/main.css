@@ -15,28 +15,8 @@
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 88px;
-}.search-section {
-  display: flex;
-  flex-direction: column;
-  background-image: url("/assets/original.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 70vh;
-  align-items: flex-start;
 }
 
-<<<<<<< HEAD
-=======
-
-.sub-title {
-  font-size: 47px;
-  align-self: flex-start;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 88px;
-}
-
->>>>>>> e5015c0ed01e138f61a730e9fd8d5ba83755d702
 .search-title {
   align-self: flex-start;
   margin-left: 88px;
@@ -141,8 +121,6 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   list-style: none;
   gap : 10px;
-<<<<<<< HEAD
-=======
 }
 
 @media (max-width : 1800px) and (min-width: 1350px) {
@@ -339,7 +317,6 @@ h4 {
 #search-form button {
   margin-left: 10px;
   padding: 5px;
->>>>>>> e5015c0ed01e138f61a730e9fd8d5ba83755d702
 }
 
 @media (max-width : 1800px) and (min-width: 1350px) {
@@ -348,14 +325,6 @@ h4 {
 }
 }
 
-<<<<<<< HEAD
-@media (max-width : 1350px) and (min-width: 900px) {
-  #card-list {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-}
-
-=======
 
 /* 영화 카드 섹션 */
 #card-list {
@@ -379,19 +348,10 @@ h4 {
 }
 }
 
->>>>>>> e5015c0ed01e138f61a730e9fd8d5ba83755d702
 @media (max-width : 900px)  {
   #card-list {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-<<<<<<< HEAD
-}
-
-#card-section {
-  width: 70%;
-  margin: 0 auto;
-=======
->>>>>>> e5015c0ed01e138f61a730e9fd8d5ba83755d702
 }
 
 .movie-card {
@@ -447,30 +407,6 @@ h4 {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-#sorting-btns {
-  text-align: center;
-}
-#sorting-btns li {
-  display: inline-block;
-}
-#sorting-btns button {
-  padding: 25px;
-  border: none;
-  background-color: transparent;
-  color: var(--main-font-color);
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  font-family: 'BMJUA';
-  font-size: 2em;
-}
-#sorting-btns button:hover {
-  color: var(--main-font-color);
-  font-weight: 700;
-  text-decoration: underline;
-  transform: translateY(-7px);
-}
-=======
 .navigation img {
   width: 100px;
   height: 50px;
@@ -503,4 +439,3 @@ h4 {
   background-size: cover;
 }
 
->>>>>>> b1b6ccbcd44bcec004958f43bbb8b3b2c9617ed8
